@@ -1,19 +1,39 @@
 table.step4 {
     border-collapse: collapse;
-    background-color: white;
     border: 1px solid black;
 }
 
-table.step5{
-	background-color: #e4e4e4;
-	border: 1px solid black;
+.step4 th {
+    border-bottom: 1px solid black;
 }
 
-.subtotal{
-	color: #c0c0c0;
+table.step5, .step5 th, .step5 td {
+    background-color: #e4e4e4;
+    border: 1px solid black;
 }
 
-.total{
-	color:#00FFFF;
+table.step4 tr.subtotal {
+    background-color: #c0c0c0;
+    border-bottom:1px solid black;
+    border-top:1px dotted black;
+}
+.city{
+    font-weight:bold;
+}
+table.step4 td:first-child{
+    border-right:1px solid black;
+}
+table.step4 td:last-child{
+    border-right:1px solid black;
+    border-left:1px dotted black;
+
+}
+
+table.step4 th:last-child{
+    font-weight:normal;
+}
+
+.total {
+    background-color: #00FFFF;
 }
 
