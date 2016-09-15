@@ -1,0 +1,19 @@
+table.step4 {
+    border-collapse: collapse;
+    background-color: white;
+    border: 1px solid black;
+}
+
+table.step5{
+	background-color: #e4e4e4;
+	border: 1px solid black;
+}
+
+.subtotal{
+	color: #c0c0c0;
+}
+
+.total{
+	color:#00FFFF;
+}
+
